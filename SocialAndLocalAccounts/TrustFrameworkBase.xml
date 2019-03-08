@@ -473,9 +473,6 @@
             <Item Key="UsePolicyInRedirectUri">0</Item>
             <Item Key="client_id">66136686613-a44202vkgnakch6gvp8g0133lu3anh4g.apps.googleusercontent.com</Item>
           </Metadata>
-          <CryptographicKeys>
-            <Key Id="client_secret" StorageReferenceId="B2C_1A_GoogleSecret" />
-          </CryptographicKeys>
           <OutputClaims>
             <OutputClaim ClaimTypeReferenceId="issuerUserId" PartnerClaimType="id" />
             <OutputClaim ClaimTypeReferenceId="email" PartnerClaimType="email" />
@@ -522,9 +519,6 @@
             <Item Key="UsePolicyInRedirectUri">0</Item>
             <Item Key="client_id">a79b28b7-f267-4b5b-a38e-d6e3fed50ca5</Item>
           </Metadata>
-          <CryptographicKeys>
-            <Key Id="client_secret" StorageReferenceId="B2C_1A_MSASecret" />
-          </CryptographicKeys>
           <OutputClaims>
             <OutputClaim ClaimTypeReferenceId="identityProvider" DefaultValue="live.com" />
             <OutputClaim ClaimTypeReferenceId="authenticationSource" DefaultValue="socialIdpAuthentication" />
@@ -564,9 +558,6 @@
             <!-- The Facebook required HTTP GET method, but the access token response is in JSON format from 3/27/2017 -->
             <Item Key="AccessTokenResponseFormat">json</Item>
           </Metadata>
-          <CryptographicKeys>
-            <Key Id="client_secret" StorageReferenceId="B2C_1A_FacebookSecret" />
-          </CryptographicKeys>
           <InputClaims />
           <OutputClaims>
             <OutputClaim ClaimTypeReferenceId="issuerUserId" PartnerClaimType="id" />
